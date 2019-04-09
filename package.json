@@ -1,0 +1,27 @@
+{
+  "name": "@posterno/google-maps-html-marker",
+  "version": "1.0.0",
+  "description": "A tiny javascript helper library to create html markers with Google maps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Posterno/google-maps-html-marker.git"
+  },
+  "keywords": [
+    "google",
+    "maps",
+    "gmap",
+    "html",
+    "marker",
+    "markers"
+  ],
+  "author": "Alessandro Tesoro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Posterno/google-maps-html-marker/issues"
+  },
+  "homepage": "https://github.com/Posterno/google-maps-html-marker#readme"
+}
