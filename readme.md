@@ -8,7 +8,7 @@ A tiny javascript helper library to create html markers with Google maps.
 npm install @posterno/google-maps-html-marker
 ```
 
-or 
+or
 
 ```shell
 yarn add @posterno/google-maps-html-marker
@@ -19,7 +19,7 @@ yarn add @posterno/google-maps-html-marker
 Load the helper library in your javascript file:
 
 ```js
-const createHTMLMapMarker = require( 'google-maps-html-marker' );
+const createHTMLMapMarker = require( '@posterno/google-maps-html-marker' );
 
 const latLng = new google.maps.LatLng(16.7666, -3.0026);
 const mapOptions = {
@@ -41,6 +41,6 @@ marker.addListener("click", () => {
 
 ### Credits
 
-This library was originally created by Dan Ward and published as [a tutorial here](https://levelup.gitconnected.com/how-to-create-custom-html-markers-on-google-maps-9ff21be90e4b). 
+This library was originally created by Dan Ward and published as [a tutorial here](https://levelup.gitconnected.com/how-to-create-custom-html-markers-on-google-maps-9ff21be90e4b).
 
 I've simply converted it to an ES5 javascript module and published it on the npmjs registry so that it's easier to re-use for my projects.
