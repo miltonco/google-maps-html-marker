@@ -19,6 +19,7 @@ module.exports = ({
 				this.div.innerHTML = this.html;
 			}
 			google.maps.event.addDomListener(this.div, "click", event => {
+				event.stopPropagation()
 				google.maps.event.trigger(this, "click");
 			});
 		}
